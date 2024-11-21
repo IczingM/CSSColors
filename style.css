@@ -1,1 +1,38 @@
-/* Start coding here */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, hsl(0, 100%, 70%), hsl(240, 100%, 70%));
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.box {
+    background-color: hsla(0, 50%, 100%, 0.5);
+    width: 450px;
+    height: 250px;
+    padding: 30px;
+    text-align: center;
+}
+
+.box h1{
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 16px;
+    color: black;
+}
